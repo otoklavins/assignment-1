@@ -9,29 +9,35 @@
 <body>
 
   <!-- Include the tag for introductory content -->
-
+<section id="intro">
     <!-- Display Laugh Track News logo nested in an anchor tag to link to index.html -->
-    
-    <!-- Write the markup for a navigation and link items to appropriate pages -->
+  <a href="../index.html"> <img src="../images/laugh-track-news-logo.svg" alt="Laugh Track News Logo"></a>
 
+    <!-- Write the markup for a navigation and link items to appropriate pages -->
+  <nav>
+    <ul>
         <!-- About the podcast can use # as a placeholder to keep the user on this page. -->
-        About the podcast
+        <li><a href="#">About the podcast</a></li>
 
         <!-- Link to external url: https://open.spotify.com/genre/podcasts-page  -->
-        Listen on Spotify
-
+        <li><a href="https://open.spotify.com/genre/podcasts-page" target="_blank">Listen on Spotify</a></li>
+      </ul>
+  </nav>
+</section>
 
 
 
   <!-- Add an element that represents the main content of the page -->
-
+<main>
     <!-- Include a tag for independent, self-contained content content ex. blog post -->
+  <article>
       <!-- Main heading for the post -->
-      Time-Traveling Political Debates
+    <h1>Time-Traveling Political Debates</h1>
 
       <!-- Markup published and length using the time element -->
-      Published: January 18, 2024
-      Length of episode: 30 min
+
+    <p>Published: <time datetime="2024-01-18"></time>January 18, 2024</p>
+    <p>Length of episode: <time datetime="PT30M"></time>30 min</p>
 
       <!-- Display image relevant to topic -->
 
@@ -40,7 +46,8 @@
       Join us as we explore the absurdity of Victorian politicians grappling with social media regulations, ancient philosophers discussing climate change, and medieval monarchs debating the merits of universal healthcare.
 
       Will these time-traveling debates lead to a harmonious blending of ideas, or will the clash of historical perspectives create chaos in the present? Get ready for a journey through the ages in this time-bending political extravaganza!
-
+  </article>
+</main>
 
 
 
